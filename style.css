@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root{
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+}
+html{
+  font-size: 11px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.card h1 {
+  margin: 30px 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+
+}
+.card p{
+line-height: 1.5;
+font-weight: 400;
+font-size: 1.3rem;
+color: #eee;
+}
+.card a{
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 10px 16px;
+  margin: 60px 0;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+  transition: .50s;
+}
+.card a:hover{
+  background-color: transparent;
+  cursor: pointer;
+  color: white!important;
+  border: 2px solid white;
+}
+.card .box-1{
+  width: 300px;
+  background-color: var(--Bright-orange);
+    height: 400px;
+  padding: 25px;
+}
+.card .box-1 a{
+  color: var(--Bright-orange);
+}
+.card .box-2 {
+  width: 300px;
+  background-color: var(--Dark-cyan);
+    height: 400px;
+  padding: 25px;
+}
+.card .box-2 a {
+  color: var(--Dark-cyan);
+}
+.card .box-3 {
+  width: 300px;
+    background-color: var(--Very-dark-cyan);
+  height: 400px;
+  padding: 25px;
+}
+.card .box-3 a {
+  color: var(--Very-dark-cyan);
+}
